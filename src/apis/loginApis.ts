@@ -2,8 +2,8 @@ import {request} from "@/libs/requests";
 
 
 const LoginCommonPath = {
-    basic: '/login',
-    ldap: '/ldap'
+    basic: '/api/login',
+    ldap: '/api/ldap'
 }
 
 

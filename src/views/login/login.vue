@@ -404,7 +404,7 @@ export default class login extends Mixins(Basic) {
             this.mask()
         }
         this.mask()
-        request.get(`/fetch`)
+        request.get(`/api/fetch`)
             .then((res: AxiosResponse<Res>) => {
                 this.switchCode = res.data.payload.reg;
             })
